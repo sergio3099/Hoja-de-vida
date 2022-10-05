@@ -1,0 +1,103 @@
+body{
+    font-family: 'Comic Sans ms', Times, serif;
+    margin: 0 auto;
+    background: #082d38 ;
+    padding: 5px;
+    width: 90%;
+    display: grid;
+    color: rgb(220, 249, 255);
+}
+.perfil{
+   margin-left: 155px;
+   margin-top: 20px;
+   border-radius: 100px; 
+   box-shadow: 0 8px 8px 0 rgb(34, 32, 32, 34);
+}
+
+h1{
+    text-align: center;
+    font-size: 25pt;
+    
+}
+
+h2 {
+   text-align: center;
+   font-size: 20pt;
+}
+p{
+   text-align: center;
+   font-size: 16pt;
+}
+
+fieldset{
+   margin-bottom: 10%;
+   border: dashed 3px  rgb(255, 252, 252);
+   display: flex;
+   margin: 15px auto;
+   width: 970px;
+}
+
+legend{
+   background: #08f5d2fd;
+   color: black;
+   padding: 5px;
+   border-radius: 100px;
+   font-weight: bold;
+   margin: 15px;
+   box-shadow: 0 8px 8px 0 rgb(34, 32, 32, 34);
+}
+
+.pie_pagina{
+   margin: 15px;
+   text-align: center;
+}
+
+.Contenedorgrid{
+   width: 100%;
+   max-width: 1000px;
+   background: rgb(220, 255, 250);
+   margin: 50px auto;
+   display: grid; 
+   color:#082d38;
+   display: grid;
+   
+}
+
+.titulo{
+   grid-column-start: 1;
+   grid-column-end: 6;
+   padding: 7px;
+   
+   background: #08f5c6fd;
+   color: #150838;
+   display: flex;
+   justify-content:flex;
+   align-items: center;
+   font-weight: bold;
+   font-size: 20px;
+   margin-bottom: 15px;  
+}
+
+.uleam{
+   margin-left: 570px;
+   margin-top: 10px;
+}
+
+.subtitulos, .datos{
+   display: flex;
+   justify-content: flex;
+   align-items: flex;
+   padding: 10px;   
+   margin-bottom: 15px;   
+}
+
+.subtitulos{
+   font-weight: bold;
+   font-size: 15px; 
+}
+
+.datos{
+   padding: 10px;
+   font-size: 15px;
+   
+}
